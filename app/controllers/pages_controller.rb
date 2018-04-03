@@ -1,4 +1,19 @@
 class PagesController < ApplicationController
-  def home
+  def menu
+  end
+
+  def squadra
+  end
+
+  def presse
+  end
+
+  def aperitivo
+  end
+
+  def galerie
+  end
+
+  def contact
   end
 end

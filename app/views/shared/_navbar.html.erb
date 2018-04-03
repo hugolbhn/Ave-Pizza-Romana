@@ -1,0 +1,111 @@
+<div class="navbar">
+  <div class="Link accueil">
+    <a href="/" </a>
+  <% if current_page?('/') %>
+    <div class="current-square">
+    </div>
+    <div class="buton">
+      <h3 class="buton-text">Accueil</h3>
+    </div>
+  <% else %>
+  <a href="/" </a>
+    <div class="buton">
+      <h3 class="buton-text">Accueil</h3>
+    </div>
+  <% end %>
+  </div>
+
+   <div class="Link menu">
+    <a href="pages/menu" </a>
+    <% if current_page?('/pages/menu') %>
+      <div class="current-square">
+      </div>
+      <div class="buton">
+        <h3 class="buton-text">Menu</h3>
+      </div>
+    <% else %>
+      <div class="buton">
+        <h3 class="buton-text">Menu</h3>
+      </div>
+    <% end %>
+  </div>
+
+   <div class="Link squadra">
+    <% if current_page?('/pages/squadra') %>
+      <div class="current-square">
+      </div>
+      <div class="buton">
+        <h3 class="buton-text">Squadra</h3>
+      </div>
+    <% else %>
+      <div class="buton">
+        <h3 class="buton-text">Squadra</h3>
+      </div>
+    <% end %>
+  </div>
+
+
+   <div class="Link presse">
+    <% if current_page?('/pages/presse') %>
+      <div class="current-square">
+      </div>
+      <div class="buton">
+        <h3 class="buton-text">Presse</h3>
+      </div>
+    <% else %>
+      <div class="buton">
+        <h3 class="buton-text">Presse</h3>
+      </div>
+    <% end %>
+  </div>
+
+   <div class="Link aperitivo">
+    <% if current_page?('/pages/aperitivo') %>
+      <div class="current-square">
+      </div>
+      <div class="buton">
+        <h3 class="buton-text">Aperitivo</h3>
+      </div>
+    <% else %>
+      <div class="buton">
+        <h3 class="buton-text">Aperitivo</h3>
+      </div>
+    <% end %>
+  </div>
+
+   <div class="Link galerie">
+    <% if current_page?('/pages/galerie') %>
+      <div class="current-square">
+      </div>
+      <div class="buton">
+        <h3 class="buton-text">Galerie</h3>
+      </div>
+    <% else %>
+      <div class="buton">
+        <h3 class="buton-text">Galerie</h3>
+      </div>
+    <% end %>
+  </div>
+
+   <div class="Link contact">
+    <% if current_page?('/pages/contact') %>
+      <div class="current-square">
+      </div>
+      <div class="buton">
+        <h3 class="buton-text">Contact</h3>
+      </div>
+    <% else %>
+      <div class="buton">
+        <h3 class="buton-text">Contact</h3>
+      </div>
+    <% end %>
+  </div>
+</div>
+
+
+
+
+
+
+
+

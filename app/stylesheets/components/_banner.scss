@@ -1,0 +1,64 @@
+// size banner
+.banner {
+  height: 200px ;
+  width:100% !important;
+}
+// elements de la banner
+.banner-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+// Head + text
+.logo{
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  position: absolute;
+  left: 40px;
+  top: 30px;
+  margin-top: auto;
+}
+// size head
+.head {
+  img {
+    width: 135px;
+  }
+}
+// size text
+.text{
+  img {
+    width: 158px;
+    margin-left: 24px;
+  }
+}
+// socials
+.facebook {
+  img {
+    width: 40px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+  }
+}
+
+.instagram {
+  img {
+    width: 40px;
+    position: absolute;
+    top: 80px;
+    right: 30px;
+  }
+}
+
+.mail {
+  img {
+    width: 40px;
+    position: absolute;
+    top: 131px;
+    right: 30px;
+  }
+}

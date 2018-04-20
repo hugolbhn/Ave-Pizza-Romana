@@ -1,0 +1,117 @@
+
+.squadra-content {
+  position: relative;
+}
+
+.first-membre {
+  width: 250px !important;
+  height: 250px !important;
+  position: absolute;
+  left: 317px;
+  .photo {
+    max-width: 100%;
+    height: auto;
+    margin-left: 50px;
+  }
+  .info {
+    margin-top: -28px;
+    color: white;
+    background-color: #0F3159;
+    opacity: 0.73;
+    padding: 24px;
+    width: 166px;
+    border-radius: 5px;
+    text-align: center;
+  }
+}
+
+.second-membre {
+  width: 250px !important;
+  height: 250px !important;
+  position: absolute;
+  left: 710px;
+  .photo {
+    max-width: 100%;
+    height: auto;
+    margin-left: 50px;
+  }
+  .info {
+    margin-top: -28px;
+    color: white;
+    background-color: #0F3159;
+    opacity: 0.73;
+    padding: 24px;
+    width: 166px;
+    border-radius: 5px;
+    text-align: center;
+  }
+}
+
+.third-membre {
+  width: 250px !important;
+  height: 250px !important;
+  position: absolute;
+  right: 88px;
+  .photo {
+    max-width: 100%;
+    height: auto;
+    margin-left: 50px;
+  }
+  .info {
+    margin-top: -28px;
+    color: white;
+    background-color: #0F3159;
+    opacity: 0.73;
+    padding: 24px;
+    width: 166px;
+    border-radius: 5px;
+    text-align: center;
+  }
+}
+
+.fourth-membre {
+  width: 250px !important;
+  height: 250px !important;
+  position: absolute;
+  right: 271px;
+  top: 570px;
+  .photo {
+    margin-left: 50px;
+  }
+  .info {
+    margin-top: -28px;
+    color: white;
+    background-color: #0F3159;
+    opacity: 0.73;
+    padding: 24px;
+    width: 166px;
+    border-radius: 5px;
+    text-align: center;
+  }
+}
+
+.fifth-membre {
+  width: 250px !important;
+  height: 250px !important;
+  position: absolute;
+  left: 511px;
+  top: 570px;
+  margin-bottom: 200px;
+  .photo {
+    max-width: 100%;
+    height: auto;
+    margin-left: 50px;
+    border-radius: 5px;
+  }
+  .info {
+    margin-top: -28px;
+    color: white;
+    background-color: #0F3159;
+    opacity: 0.73;
+    padding: 24px;
+    width: 166px;
+    border-radius: 5px;
+    text-align: center;
+  }
+}
+

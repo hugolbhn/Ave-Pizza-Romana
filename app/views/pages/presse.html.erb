@@ -1,4 +1,64 @@
 <body class="banner" style="background-image: url('/assets/fond.jpg');">
 
+<div id="Article1" onclick="myFunction1()">
+  <div id="Source">
+     <%= image_tag("le-fooding-logo.jpg", :alt => "Fooding") %>
+    <div id="lien-article">
+      <%= link_to "Voir sur le site", "https://lefooding.com/fr", :target => "_blank" %></%>
+    </div>
+  </div>
+  <div id="Article-text">
+    <p class="a">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moontempor <i class="fas fa-chevron-right"></i></p>
+    <p class="b">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moontempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. <i class="fas fa-chevron-left"></i></p>
+  </div>
+</div>
+<br>
+<div id="Article2" onclick="myFunction2()">
+  <div id="Source">
+     <%= image_tag("lexpress-logo.jpg", :alt => "L'Express") %>
+    <div id="lien-article">
+      <%= link_to "Voir sur le site", "https://www.lexpress.fr/styles/saveurs/", :target => "_blank" %></%>
+    </div>
+  </div>
+  <div id="Article-text">
+    <p class="a">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moontempor <i class="fas fa-chevron-right"></i></p>
+    <p class="b">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moontempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. <i class="fas fa-chevron-left"></i></p>
+  </div>
+</div>
+<br>
+<div id="Article3" onclick="myFunction3()">
+  <div id="Source">
+     <%= image_tag("leparisien-logo.jpg", :alt => "Le Parisien") %>
+    <div id="lien-article">
+      <%= link_to "Voir sur le site", "http://www.leparisien.fr/laparisienne/cuisine/", :target => "_blank" %></%>
+    </div>
+  </div>
+  <div id="Article-text">
+    <p class="a">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moontempor <i class="fas fa-chevron-right"></i></p>
+    <p class="b">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moontempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. <i class="fas fa-chevron-left"></i></p>
+  </div>
+
+
+<script>
+  function myFunction1() {
+    const element = document.getElementById("Article1");
+    element.classList.toggle("full-article");
+  }
+  function myFunction2() {
+      const element = document.getElementById("Article2");
+      element.classList.toggle("full-article");
+  }
+  function myFunction3() {
+      const element = document.getElementById("Article3");
+      element.classList.toggle("full-article");
+  }
+</script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+
+
+
+
+
 
 </body>
+

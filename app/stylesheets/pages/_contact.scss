@@ -1,0 +1,34 @@
+.info {
+  position: relative;
+  color: $blue;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.adresse {
+  position: absolute;
+  left: 20px;
+}
+
+.horaires {
+  position: absolute;
+  right: 431px;
+  top: 20px;
+}
+
+.horaires-content {
+  position: absolute;
+  right: 100px;
+  top: 60px;
+  letter-spacing: 0.5px;
+  display: flex;
+  ul {
+    list-style-type: none;
+  }
+}
+
+.adresse {
+  position: absolute;
+  left: 100px;
+  top: 68px;
+}

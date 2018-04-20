@@ -1,0 +1,30 @@
+// Specific CSS for your home-page
+body {
+color:black;
+background-image:url("../images/fond.JPG");
+background-size: cover;
+}
+
+.carousel {
+  grid-row: 1 / span 1 ;
+  grid-colum: 1 / span 1;
+}
+
+.text-home {
+  background-color: $blue;
+  grid-row: 1 / span 1 ;
+  grid-colum: 2 / span 1;
+  color: white;
+  p {
+    margin: 24px;
+    text-decoration: none;
+    text-align: justify;
+
+  }
+}
+
+.grid-content {
+  display: grid;
+  grid-template-columns: 1fr 401px;
+  grid-template-rows: 665px;
+}
